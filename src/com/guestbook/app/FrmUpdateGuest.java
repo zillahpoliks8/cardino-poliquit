@@ -104,7 +104,7 @@ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRS
             int id = Integer.parseInt(this.updateID.getText());
             String name = this.updateName.getText();
             String set = "name="+"'"+name+"'";
-            if(SQLite.update("tblGuestbook", set, id)){
+            if(SQLite.update("tblGBook", set, id)){
                 javax.swing.JOptionPane.showMessageDialog(null, "Guest has been updated!");
             }
             else{

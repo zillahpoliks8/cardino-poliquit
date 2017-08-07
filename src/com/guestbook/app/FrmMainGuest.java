@@ -5,7 +5,7 @@
  */
 package com.guestbook.app;
 
-import java.awt.Toolkit;
+//import java.awt.Toolkit;
 
 /**
  *

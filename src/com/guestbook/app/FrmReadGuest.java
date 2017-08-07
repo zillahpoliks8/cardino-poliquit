@@ -101,7 +101,7 @@ public class FrmReadGuest extends javax.swing.JFrame {
 
     private void btnRefreshActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRefreshActionPerformed
         if(SQLite.openDB()){
-            String[][] data = SQLite.read("tblGuestbook");
+            String[][] data = SQLite.read("tblGBook");
             String[] column = {"ID", "Name", "Contact #", "Email", "Gender"};
             javax.swing.table.DefaultTableModel model = new javax.swing.table.DefaultTableModel(data, column);
             this.tblGuestbook.setModel(model);

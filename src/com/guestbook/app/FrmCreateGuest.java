@@ -138,14 +138,14 @@ public class FrmCreateGuest extends javax.swing.JFrame {
 
     private void btnCreateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCreateActionPerformed
         if(SQLite.openDB()){
-            String id = this.createID.getText();
-            String name = this.createName.getText();
-            String contact = this.createContact.getText();
-            String email = this.createEmlAdd.getText();
-            String sex = this.createSex.getText();
+            String id = createID.getText();
+            String name = createName.getText();
+            String contact = createContact.getText();
+            String email = createEmlAdd.getText();
+            String sex = createSex.getText();
             
-            String values = id + "," + "'" + name + "'" + "," + contact + "," + "'" + email + "'" + "," + sex;
-            if(SQLite.create("tblGuestbook", values)){
+            String values = id + "," + "'" + name + "'" + "," + contact + "," + "'" + email + "'" + "," + "'" +sex+ "'";
+            if(SQLite.create("tblGbook", values)){
                 javax.swing.JOptionPane.showMessageDialog(null, "New Guest has been created!");
             }
             else{
