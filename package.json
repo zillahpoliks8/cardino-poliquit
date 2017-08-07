@@ -1,0 +1,22 @@
+{
+  "name": "cardino-poliquit",
+  "version": "1.0.0",
+  "description": "cprog",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zillahpoliks8/cardino-poliquit.git"
+  },
+  "author": "cardino-poliquit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zillahpoliks8/cardino-poliquit/issues"
+  },
+  "homepage": "https://github.com/zillahpoliks8/cardino-poliquit#readme"
+}
