@@ -7,7 +7,8 @@ public class SQLite {
     //Static Variables
     static java.sql.Connection conn  = null;
     static java.sql.Statement stmt = null;
-    static String url = "jdbc:sqlite:C:\\cardino-poliquit\\src\\com\\guestbook\\app\\guestbooks.sqlite";
+//    File path = new File('.sqlite');
+    static String url = "jdbc:sqlite:C:\\cardino-poliquit\\src\\com\\guestbook\\app\\gbook.sqlite";
     static String error = "";
     
     //Open DB Session Method

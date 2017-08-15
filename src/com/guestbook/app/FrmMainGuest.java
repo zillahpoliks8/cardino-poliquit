@@ -29,6 +29,8 @@ public class FrmMainGuest extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         barFile = new javax.swing.JMenu();
         itemCreate = new javax.swing.JMenuItem();
@@ -38,6 +40,15 @@ public class FrmMainGuest extends javax.swing.JFrame {
         itemQuit = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel1.setFont(new java.awt.Font("Monospaced", 0, 36)); // NOI18N
+        jLabel1.setText("Guest book");
+        jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 120, 240, 90));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Cardino-Poliquit\\src\\com\\guestbook\\app\\main.jpg")); // NOI18N
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 460, 340));
 
         barFile.setText("File");
 
@@ -89,17 +100,6 @@ public class FrmMainGuest extends javax.swing.JFrame {
         jMenuBar1.add(barFile);
 
         setJMenuBar(jMenuBar1);
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 464, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 341, Short.MAX_VALUE)
-        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -171,6 +171,8 @@ public class FrmMainGuest extends javax.swing.JFrame {
     private javax.swing.JMenuItem itemQuit;
     private javax.swing.JMenuItem itemRead;
     private javax.swing.JMenuItem itemUpdate;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JMenuBar jMenuBar1;
     // End of variables declaration//GEN-END:variables
 }
